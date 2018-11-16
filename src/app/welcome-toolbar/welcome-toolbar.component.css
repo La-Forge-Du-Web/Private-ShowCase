@@ -1,0 +1,11 @@
+mat-toolbar{
+    text-align: center;
+}
+
+.flex-spacer[_ngcontent-c1] {
+    flex-grow: 1;
+}
+
+h1{
+    margin-left: calc(50% - 99px);
+}
