@@ -2,12 +2,11 @@ mat-card{
   text-align: center;
 }
 .example-card {
-    max-width: 400px;
-  }
-  
-.example-header-image {
-  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
-  background-size: cover;
+  width: 240px;
+  height: 265px;
+  margin-top: 40px;
+  background-color: rgb(195, 195, 195);
+  color: white; 
 }
 
 img[_ngcontent-c5]{
@@ -15,7 +14,11 @@ img[_ngcontent-c5]{
 }
 
 .mat-card-image{
-  height: calc(100% - 64px);
-  width: calc(100% - 64px);
-  padding: 32px;
+  height: 168px;
+  width: 168px;
+  padding: 16px;  
+}
+
+h1 {
+  font-size: 22px;
 }

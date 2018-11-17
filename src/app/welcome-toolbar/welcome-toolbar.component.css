@@ -1,5 +1,7 @@
 mat-toolbar{
     text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(65, 65, 65);
 }
 
 .flex-spacer[_ngcontent-c1] {
@@ -7,5 +9,6 @@ mat-toolbar{
 }
 
 h1{
-    margin-left: calc(50% - 99px);
+    margin-left: calc(50% - 146px);
+    font-size: 34px;
 }
