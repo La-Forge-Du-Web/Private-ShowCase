@@ -10,16 +10,14 @@ import { MatCardModule } from '@angular/material/card';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatButtonModule } from '@angular/material/button';
 
-import { WelcomeComponent } from './welcome/welcome.component';
-import { WelcomeToolbarComponent } from './welcome-toolbar/welcome-toolbar.component';
-import { ExampleCardComponent } from './example-card/example-card.component';
+import { WelcomeComponent } from './views/welcome-page/welcome/welcome.component';
+import { WelcomeToolbarComponent } from './views/welcome-page/welcome-toolbar/welcome-toolbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     WelcomeComponent,
     WelcomeToolbarComponent,
-    ExampleCardComponent
   ],
   imports: [
     BrowserModule,

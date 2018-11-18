@@ -1,0 +1,26 @@
+<app-welcome-toolbar></app-welcome-toolbar>
+
+<img class="header-image" src="https://e-po.fr/wp-content/uploads/2014/06/NIN_Paris2014-1836-EPO.jpg" alt="">
+
+<h2>
+    Private ShowCase est une plateforme permettant la mise en relation de musiciens avec des
+    particuliers qui souhaitent organiser des concerts chez eux.
+</h2>
+<p class="description-welcome">
+    Les spectateurs sont directement invités par l'organisateur, une participation pourra être
+    demandée pour le cachet des artistes.
+</p>
+
+<mat-grid-list cols="3" rowHeight="330px">
+    <mat-grid-tile *ngFor="let dataCard of dataCards">
+        <mat-card class="welcome-card">
+            <img mat-card-image src={{dataCard.img}}>
+            <mat-card-content>
+            <h3>{{dataCard.title}}</h3>
+            <p>
+                {{dataCard.desc}}
+            </p>
+            </mat-card-content>
+        </mat-card>
+    </mat-grid-tile>
+</mat-grid-list>
